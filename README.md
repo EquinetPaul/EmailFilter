@@ -6,7 +6,6 @@
 
 ## Fonctionnalités
 - Supprimer les domaines inconnus 
--- à modifier dans le tableau "know_domain"
 - Trier par domaines
 - Supprimer les doublons
 - Supprimer les mots de passe Iphone
