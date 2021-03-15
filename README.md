@@ -12,6 +12,10 @@
 - Supprimer les mots de passe Iphone
 - Créer plusieurs sorties en fonction des domaines
 
+### Autres
+- Afficher les domaines utilisés
+- Mettre en minuscule les adresses email
+
 ### Modifier les domaines connus
 - Modifier le tableau "know_domain"
 
