@@ -105,12 +105,12 @@ listEmail = lowEmails(listEmail)
 
 # fonctions du programme, à mettre en commentaire si vous ne voulez pas l'executer
 listEmail = delete_unknow_domain(listEmail) # supprimer les domaines inconnus
-# listEmail = sort_by_domain(listEmail, know_domain) # trier en fonction des domaines
+listEmail = sort_by_domain(listEmail, know_domain) # trier en fonction des domaines
 listEmail = delete_doublon(listEmail) # supprimer les doublons
 listEmail = delete_iphone_password(delete_iphone_password(listEmail)) # supprimer les mots de passe iphone
 listEmail = deleteShortName(listEmail)
 listEmail = check_regex(listEmail)
 write_new_list(listEmail) # ecrire les nouvelles entrées
-# make_different_files_for_domain(listEmail,know_domain) # créer des fichiers contenant les emails en fonction des différents domaines connus
+make_different_files_for_domain(listEmail,know_domain) # créer des fichiers contenant les emails en fonction des différents domaines connus
 
 print('The New List Counts ' + str(len(listEmail)) + ' Email!')
